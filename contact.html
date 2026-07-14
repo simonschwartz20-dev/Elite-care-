@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | Elite Care</title>
+<meta name="description" content="Get in touch with Elite Care to schedule a free consultation and discuss in-home care options for your family.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&amp;family=Karla:wght@400;500;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style type="text/css" nonce="">
+.redacted {
+  color: red !important;
+}</style></head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand">Elite<span>Care</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="nav-cta">Get in Touch</a>
+  </nav>
+</header>
+
+<section style="padding-top:60px;">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Let's Talk</span>
+      <h2>Schedule a free, no-obligation consultation</h2>
+      <p>Tell us a bit about your situation and our care coordinator will reach out within one business day.</p>
+    </div>
+
+    <div class="contact-grid">
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you — we will be in touch shortly.');">
+        <div class="form-row">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" required placeholder="Jane Smith">
+        </div>
+        <div class="form-row">
+          <label for="phone">Phone number</label>
+          <input type="tel" id="phone" name="phone" required placeholder="(555) 000-0000">
+        </div>
+        <div class="form-row">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" required placeholder="jane@email.com">
+        </div>
+        <div class="form-row">
+          <label for="best-time">Best time to call</label>
+          <select id="best-time" name="best-time">
+            <option>Morning</option>
+            <option>Afternoon</option>
+            <option>Evening</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="message">How can we help?</label>
+          <textarea id="message" name="message" placeholder="Tell us about your care needs..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-gold" style="border:none; cursor:pointer; align-self:flex-start;">Send Message</button>
+      </form>
+
+      <div class="contact-side">
+        <h3>Reach us directly</h3>
+        <div class="contact-line">
+          <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.68 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.32 1.85.55 2.81.68A2 2 0 0122 16.92z"></path></svg>
+          <div><strong>Phone</strong><span>(555) 000-0000</span></div>
+        </div>
+        <div class="contact-line">
+          <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"></path><path d="M4 4l8 8 8-8"></path></svg>
+          <div><strong>Email</strong><span>hello@elitecare.com</span></div>
+        </div>
+        <div class="contact-line">
+          <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C7 2 4 6 4 10c0 6 8 12 8 12s8-6 8-12c0-4-3-8-8-8z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <div><strong>Service Area</strong><span>Serving the Tri-State region</span></div>
+        </div>
+        <div class="contact-line">
+          <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+          <div><strong>Hours</strong><span>Mon–Fri, 8am–6pm · 24/7 care available</span></div>
+        </div>
+
+        <div class="map-embed">
+          <iframe title="Service area map" loading="lazy" src="https://www.google.com/maps?q=New%20York&amp;output=embed">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="brand">Elite<span>Care</span></a>
+        <p>Compassionate, licensed in-home care for individuals and families across the region.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+15550000000">(555) 000-0000</a></li>
+          <li><a href="mailto:hello@elitecare.com">hello@elitecare.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Elite Care. All rights reserved.</span>
+      <span>Licensed &amp; Insured Home Care Provider</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
